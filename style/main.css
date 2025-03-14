@@ -4,7 +4,7 @@ html, body {
   padding: 0;
   background: #899284;
   background-image: url(../meta/2151793122.jpg);
-  background-size: auto;
+  background-size: cover;
 
   color: #f5f4f3;
   font-family:"VCR OSD Mono" ,"Clear Sans", "Helvetica Neue", Arial, sans-serif;
@@ -62,10 +62,19 @@ h1.title {
   height: 25px;
   line-height: 47px;
   font-weight: bold;
-  border-radius: 3px;
+  border-radius: 1px;
   color: white;
   margin-top: 8px;
-  text-align: center; }
+  text-align: center;
+  
+  box-shadow:   -2px 0 0 0 #bbada0,
+  2px 0 0 0 #bbada0,
+  0 -2px 0 0 #bbada0,
+  0 2px 0 0 #bbada0;
+}
+
+
+
   .score-container:after, .best-container:after {
     position: absolute;
     width: 100%;
@@ -75,7 +84,10 @@ h1.title {
     font-size: 13px;
     line-height: 13px;
     text-align: center;
-    color: #eee4da; }
+    color: #eee4da;
+  
+  
+  }
   .score-container .score-addition, .best-container .score-addition {
     position: absolute;
     right: 30px;
@@ -90,7 +102,9 @@ h1.title {
     animation: move-up 600ms ease-in;
     -webkit-animation-fill-mode: both;
     -moz-animation-fill-mode: both;
-    animation-fill-mode: both; }
+    animation-fill-mode: both; 
+  
+  }
 
 .score-container:after {
   content: "Score"; }
@@ -234,7 +248,9 @@ hr {
 .tile, .tile .tile-inner {
   width: 107px;
   height: 107px;
-  line-height: 107px; }
+  line-height: 107px;
+
+}
 .tile.tile-position-1-1 {
   -webkit-transform: translate(0px, 0px);
   -moz-transform: translate(0px, 0px);
@@ -325,12 +341,15 @@ hr {
   -moz-transition-property: -moz-transform;
   transition-property: transform; }
   .tile .tile-inner {
-    border-radius: 3px;
+    
+    border-radius: 1px;
     background: #eee4da;
     text-align: center;
     font-weight: bold;
     z-index: 10;
-    font-size: 55px; }
+    font-size: 55px;
+
+  }
   .tile.tile-2 .tile-inner {
     background: #eee4da;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
@@ -523,7 +542,7 @@ hr {
 .restart-button {
   display: inline-block;
   background: #8f7a66;
-  border-radius: 3px;
+  border-radius: 1px;
   padding: 0 20px;
   text-decoration: none;
   color: #f9f6f2;
@@ -531,15 +550,23 @@ hr {
   line-height: 42px;
   display: block;
   text-align: center;
-  float: right; }
+  float: right; 
+  box-shadow:   -2px 0 0 0 #bbada0,
+  2px 0 0 0 #bbada0,
+  0 -2px 0 0 #bbada0,
+  0 2px 0 0 #bbada0;
+
+}
 
 .game-explanation {
   margin-top: 50px; 
   background: #bbada0;
-  border-radius: 3px;
+  border-radius: 1px;
   padding: 15px 10px;
+  box-shadow: -4px 0 0 0 #bbada0, 4px 0 0 0 #bbada0, 0 -4px 0 0 #bbada0, 0 4px 0 0 #bbada0;
 
 }
+
 
 @media screen and (max-width: 520px) {
   html, body {
@@ -591,12 +618,17 @@ hr {
     -ms-touch-action: none;
     touch-action: none;
     background: #bbada0;
-    border-radius: 6px;
+    border-radius: 1px;
     width: 280px;
     height: 280px;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-    box-sizing: border-box; }
+    box-sizing: border-box;
+    box-shadow: -4px 0 0 0 #bbada0, 4px 0 0 0 #bbada0, 0 -4px 0 0 #bbada0, 0 4px 0 0 #bbada0;
+  
+
+  }
+ 
     .game-container .game-message {
       display: none;
       position: absolute;
