@@ -1,0 +1,44 @@
+@font-face {
+    font-family: "Clear Sans";
+    src: url("ClearSans-Light-webfont.eot");
+    src: url("ClearSans-Light-webfont.eot?#iefix") format("embedded-opentype"),
+         url("ClearSans-Light-webfont.svg#clear_sans_lightregular") format("svg"),
+         url("ClearSans-Light-webfont.woff") format("woff");
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Clear Sans";
+    src: url("ClearSans-Regular-webfont.eot");
+    src: url("ClearSans-Regular-webfont.eot?#iefix") format("embedded-opentype"),
+         url("ClearSans-Regular-webfont.svg#clear_sansregular") format("svg"),
+         url("ClearSans-Regular-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Clear Sans";
+    src: url("ClearSans-Bold-webfont.eot");
+    src: url("ClearSans-Bold-webfont.eot?#iefix") format("embedded-opentype"),
+         url("ClearSans-Bold-webfont.svg#clear_sansbold") format("svg"),
+         url("ClearSans-Bold-webfont.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: "Daydream";
+    src: url("04B_30__.TTF") format("truetype");
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "VCR OSD Mono";
+    src: url("VCR_OSD_MONO_1.001.ttf") format("truetype");
+    font-weight: 100;
+    font-style: normal;
+}
