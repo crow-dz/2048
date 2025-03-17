@@ -4,7 +4,7 @@ html, body {
   padding: 0;
   background: #899284;
   background-image: url(../meta/2151793122.jpg);
-  background-size: cover;
+  background-size: fill;
 
   color: #f5f4f3;
   font-family:"VCR OSD Mono" ,"Clear Sans", "Helvetica Neue", Arial, sans-serif;
